@@ -1,0 +1,37 @@
+/* Input.module.scss */
+
+.inputWrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.25rem;
+    width: 100%;
+  }
+  
+  .label {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #4b5563; /* Gray-700 */
+    font-size: 0.9rem;
+  }
+  
+  .input {
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+    border: 2px solid #d1d5db; /* Gray-300 */
+    border-radius: 6px;
+    transition: border-color 0.3s ease;
+    outline-offset: 2px;
+  
+    &:focus {
+      border-color: #6366f1; /* Indigo-500 */
+      outline: none;
+    }
+  }
+  
+  .error {
+    color: #ef4444; /* Red-500 */
+    font-size: 0.85rem;
+    margin-top: 0.25rem;
+    font-weight: 500;
+  }
+  
